@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import balanced_accuracy_score
 from sklearn.preprocessing import OneHotEncoder, OrdinalEncoder
 
-def train_test_split_marketing(df):
+def train_test_split_fraud(df):
     X = df.drop(columns='y')
     y = df['y'].values.reshape(-1,1)
     return train_test_split(X, y, random_state=13)
