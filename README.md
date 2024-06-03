@@ -27,4 +27,4 @@ _Packages Used: Anaconda, Pandas, NumPy, sklearn.model_selection: (Train_Test_Sp
 
 _Tools Used: Jupyter Notebook (IPython)._
 
-_Credit & Contributors: ballen614, Ozkazanc1991, and 2Hail
+_Credit & Contributors: ballen614, Ozkazanc1991, and 2Hail_
