@@ -4,7 +4,7 @@
 In this project, we are posing as a startup AI company. We will be pitching our training model to possible investors in the vehicle insurance industry. We will be investigating vehicle insurance claim fraud and further training our model to predict future cases of vehicle insurance fraud.
 
 ***OUR DATA():***
-
+_We imported our Data from Kaggle: https://www.kaggle.com/datasets/shivamb/vehicle-claim-fraud-detection_
 
 
 ***OUR OBJECTIVES():***
