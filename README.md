@@ -1,25 +1,34 @@
 # ML_Fraud_Detection
 
-***SUMMARY ():***
+***SUMMARY:***
 In this project, we are posing as a startup AI company. We will be pitching our training model to possible investors in the vehicle insurance industry. We will be investigating vehicle insurance claim fraud and further training our model to predict future cases of vehicle insurance fraud.
 
-***OUR DATA():***
+***OUR OBJECTIVES:***
+
+_For this project, our objective is to perform / create a model that performs a test with an accuracy of >75%-80%. In doing this, we would also like to see our model predictions perform with >95% accuracy._
+
+***OUR DATA:***
 _We imported our Data from Kaggle: https://www.kaggle.com/datasets/shivamb/vehicle-claim-fraud-detection_
 
+_At first glance of our data, there are 14,997 non-fraudulent rows and 923 fraudulent rows._
 
-***OUR OBJECTIVES():***
+_***Discrepancies:***_
 
+_With our original dataset, we ran the multiple test before deciding on the KNeighbors Test. 
+Our discrepancy is with the balanced_accuracy_score of the test, resulting in a value <75%.
+With this in mind, we utilized the "SMOTETomek" function to balance the data at 10,722 non-fradulent rows and 10,722 fraudulent rows; essentially balancing the data to assist the model in making accurate predictions.
 
+***OUR LEARNINGS:***
 
-***OUR LEARNINGS():***
+_XXXXXX_
 
+***CONCLUSION:***
 
-
-***CONCLUSION():***
-
-
+_In conclusion to our project, we can start by taking away the importance of balancing our data, or using "balanced_accuracy_score" if the data is imbalanced but the values being tested are relatively close to each other. XXXXX_
 
 ***MISC NOTES:***
+
+_Once again, we utilized SMOTETomek to balance our data with the goal of assisting the model in making accurate predictions._
 
 _Programming Language Used: Python._
 
