@@ -32,7 +32,7 @@ _Once again, we utilized SMOTETomek to balance our data with the goal of assisti
 
 _Programming Language Used: Python._
 
-_Packages Used: Anaconda, Pandas, NumPy, sklearn.model_selection: (Train_Test_Split), sklearn.metrics: (Balanced_Accuracy_Score), sklearn.preprocessing: (OneHotEncoder, and OrdinalEncoder.)_
+_Packages Used: Anaconda, Pandas, NumPy, sklearn.model_selection: (Train_Test_Split), sklearn.metrics: (Balanced_Accuracy_Score), sklearn.preprocessing: (OneHotEncoder and OrdinalEncoder.)_
 
 _Tools Used: Jupyter Notebook (IPython)._
 
