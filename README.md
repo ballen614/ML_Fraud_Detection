@@ -32,7 +32,7 @@ _Once again, we utilized SMOTETomek to balance our data with the goal of assisti
 
 _Programming Language Used: Python._
 
-_Packages Used: Anaconda, Pandas, NumPy, sklearn.model_selection: (Train_Test_Split), sklearn.metrics: (Balanced_Accuracy_Score), sklearn.preprocessing: (OneHotEncoder and OrdinalEncoder.)_
+_Packages Used: Anaconda, Pandas, NumPy, sklearn.model_selection: train_test_split, sklearn.metrics: balanced_accuracy_score, sklearn.preprocessing: OneHotEncoder, OrdinalEncoder, and StandardScaler. Sklearn.svm: SVC, sklearn.neighbors: KNeighborsClassifier, sklearn.tree: DecisionTreeClassifier, sklearn.ensemble: RandomForestClassifier, sklearn.ensemble: ExtraTreesClassifier, sklearn.ensemble: GradientBoostingClassifier, sklearn.ensemble: AdaBoostClassifier, imblearn.over_sampling: SMOTE, imblearn.under_sampling: TomekLinks, imblearn.combine: SMOTETomek, sklearn.metrics: classification_report
 
 _Tools Used: Jupyter Notebook (IPython)._
 
