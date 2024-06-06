@@ -7,6 +7,10 @@ In this project, we are posing as a startup AI company. We will be pitching our 
 
 _For this project, our objective is to perform / create a model that performs a test with an accuracy of >75%-80%. In doing this, we would also like to see our model predictions perform with >95% accuracy._
 
+***OUR APPROACH:***
+
+_Our approach consisted of gathering the data from kaggle, cleaning the data through the filling missing data with "0"; creating our encoders, concatenanting our data, then training the model. _
+
 ***OUR DATA:***
 _We imported our Data from Kaggle: https://www.kaggle.com/datasets/shivamb/vehicle-claim-fraud-detection_
 
