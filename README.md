@@ -24,7 +24,7 @@ With this in mind, we utilized the "SMOTETomek" function to balance the data at 
 
 ***OUR LEARNINGS:***
 
-_XXXXXX_
+_In performing our analysis, we found that despite our relatively large dataset, the type of model we were hoping to run required more data. Each time we ran a test our balanced accuracy score, train score, and test score proved good numbers. The issue that led us to the conclusion of necessisitating more data was our macro avg score remaining below >60%._
 
 ***CONCLUSION:***
 
@@ -32,7 +32,7 @@ _In conclusion to our project, we can start by taking away the importance of bal
 
 ***MISC NOTES:***
 
-_Once again, we utilized SMOTETomek to balance our data with the goal of assisting the model in making accurate predictions._
+_Once again, we initially utilized SMOTETomek to balance our data with the goal of assisting the model in making accurate predictions. After much deliberation, we found our dataset to not be large enough to fully train the model._
 
 _Programming Language Used: Python._
 
