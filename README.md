@@ -44,7 +44,7 @@ _Finally, we also concluded that since this project is being posed as a real lif
 
 ***MISC NOTES:***
 
-_Once again, we initially utilized SMOTETomek to balance our data with the goal of assisting the model in making accurate predictions. After much deliberation, we found our dataset to not be large enough to fully train the model. This was decided through evaluating our F1 Score, Precision, Recall, Macro Avg, Accuracy, and Weighted Average._
+_Once again, we initially utilized SMOTETomek to balance our data with the goal of assisting the model in making accurate predictions. After much deliberation, we found our dataset to not be large enough to fully train the model. From this we decided to utilize SMOTEOversampling. This was decided through evaluating our F1 Score, Precision, Recall, Macro Avg, Accuracy, and Weighted Average._
 
 _Programming Language Used: Python._
 
