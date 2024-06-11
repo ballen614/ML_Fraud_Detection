@@ -11,7 +11,7 @@ _For this project, our objective is to perform / create a model that performs a 
 
 _In beginning our project, we started with creating a Jupyter notebook of our data, cleansed the data, then exported it as a CSV for the model. With this, our Python script initializes, trains, and evaluates the model._
 
-_Our approach consisted of gathering the data from kaggle, cleaning the data through the filling missing data with "0"; creating our encoders, concatenanting our data, then training the model. _
+_Our approach consisted of gathering the data from kaggle, cleaning the data through the filling missing data with "0"; creating our encoders, then training the model._
 
 ***OUR DATA:***
 _We imported our Data from Kaggle: https://www.kaggle.com/datasets/shivamb/vehicle-claim-fraud-detection_
