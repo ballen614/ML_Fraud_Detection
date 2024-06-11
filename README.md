@@ -9,6 +9,8 @@ _For this project, our objective is to perform / create a model that performs a 
 
 ***OUR APPROACH:***
 
+_In beginning our project, we started with creating a Jupyter notebook of our data, cleansed the data, then exported it as a CSV for the model. With this, our Python script initializes, trains, and evaluates the model._
+
 _Our approach consisted of gathering the data from kaggle, cleaning the data through the filling missing data with "0"; creating our encoders, concatenanting our data, then training the model. _
 
 ***OUR DATA:***
@@ -16,15 +18,21 @@ _We imported our Data from Kaggle: https://www.kaggle.com/datasets/shivamb/vehic
 
 _At first glance of our data, there are 14,997 non-fraudulent rows and 923 fraudulent rows._
 
-_***Discrepancies:***_
+_***DISCREPANCIES:***_
 
-_With our original dataset, we ran the multiple test before deciding on the KNeighbors Test. 
+_Initially, with our original dataset, we ran the multiple test before deciding on the KNeighbors Test. 
 Our discrepancy is with the balanced_accuracy_score of the test, resulting in a value <75%.
-With this in mind, we utilized the "SMOTETomek" function to balance the data at 10,722 non-fradulent rows and 10,722 fraudulent rows; essentially balancing the data to assist the model in making accurate predictions.
+With this in mind, we utilized the "SMOTETomek" function to balance the data at 10,722 non-fradulent rows and 10,722 fraudulent rows; essentially balancing the data to assist the model in making accurate predictions. With this in mind, we learned that our dataset size was not large enough through evaluating our F1 Score._
+
+_***AFTER ADDRESSING OUR DISCREPANCIES***_
+
+_After evaluating and deliberating our dataset size issues, we split our data into training and testing sets, applied the appropriate encoding, and tested different balancing techniques. Using the GradientBoostingClassifier and SMOTE Oversampling resulted in the best results._
 
 ***OUR LEARNINGS:***
 
 _In performing our analysis, we found that despite our relatively large dataset, the type of model we were hoping to run required more data. Each time we ran a test our balanced accuracy score, train score, and test score proved good numbers. The issue that led us to the conclusion of necessisitating more data was our macro avg score remaining below >60%._
+
+_Another learning of ours includes understanding what data from our dataset was considered "necessary" data, opposed to "noise". By noise, we mean data that the model was implicating into its predictions, leading to the skewing / inaccuracies in our models performance._
 
 ***CONCLUSION:***
 
