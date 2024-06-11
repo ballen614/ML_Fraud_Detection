@@ -48,8 +48,12 @@ _Once again, we initially utilized SMOTETomek to balance our data with the goal 
 
 _Programming Language Used: Python._
 
-_Packages Used: Anaconda, Pandas, NumPy, sklearn.model_selection: train_test_split, sklearn.metrics: balanced_accuracy_score, sklearn.preprocessing: OneHotEncoder, OrdinalEncoder, and StandardScaler. Sklearn.svm: SVC, sklearn.neighbors: KNeighborsClassifier, sklearn.tree: DecisionTreeClassifier, sklearn.ensemble: RandomForestClassifier, sklearn.ensemble: ExtraTreesClassifier, sklearn.ensemble: GradientBoostingClassifier, sklearn.ensemble: AdaBoostClassifier, imblearn.over_sampling: SMOTE, imblearn.under_sampling: TomekLinks, imblearn.combine: SMOTETomek, sklearn.metrics: classification_report
+_Packages Used: Anaconda, Pandas, NumPy, sklearn.model_selection: train_test_split, sklearn.metrics: balanced_accuracy_score, sklearn.preprocessing: OneHotEncoder, OrdinalEncoder, and StandardScaler. Sklearn.svm: SVC, sklearn.neighbors: KNeighborsClassifier, sklearn.tree: DecisionTreeClassifier, sklearn.ensemble: RandomForestClassifier, sklearn.ensemble: ExtraTreesClassifier, sklearn.ensemble: GradientBoostingClassifier, sklearn.ensemble: AdaBoostClassifier, imblearn.over_sampling: SMOTE, imblearn.under_sampling: TomekLinks, imblearn.combine: SMOTETomek, sklearn.metrics: classification_report_
 
 _Tools Used: Jupyter Notebook (IPython)._
+
+***SOFTWARE USAGE:***
+
+_Currently the software does not support input parameters.  In order to generate fraud predictions on test data, please modify data/encoded_test_data.csv and data/encoded_test_fraud_scoring.csv with your required inputs, and the code will output data/fraud_predictions.csv._
 
 _Credit & Contributors: ballen614, Ozkazanc1991, and 2Hail_
