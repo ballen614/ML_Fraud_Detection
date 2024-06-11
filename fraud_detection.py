@@ -6,10 +6,10 @@ from sklearn.metrics import classification_report
 
 print()
 print("Reading in data... ")
-X_train  = pd.read_csv('challenges/ML_Fraud_Detection/encoded_training_data.csv', header=None)
-y_train  = pd.read_csv('challenges/ML_Fraud_Detection/encoded_training_fraud_scoring.csv', header=None)
-X_test   = pd.read_csv('challenges/ML_Fraud_Detection/encoded_test_data.csv', header=None)
-y_test   = pd.read_csv('challenges/ML_Fraud_Detection/encoded_test_fraud_scoring.csv', header=None)
+X_train  = pd.read_csv('challenges/ML_Fraud_Detection/data/encoded_training_data.csv', header=None)
+y_train  = pd.read_csv('challenges/ML_Fraud_Detection/data/encoded_training_fraud_scoring.csv', header=None)
+X_test   = pd.read_csv('challenges/ML_Fraud_Detection/data/encoded_test_data.csv', header=None)
+y_test   = pd.read_csv('challenges/ML_Fraud_Detection/data/encoded_test_fraud_scoring.csv', header=None)
 
 # Need to flatten the y data out to quiet down some warnings.
 y_train = np.ravel(y_train)
@@ -37,5 +37,5 @@ print("\nGradientBoostingClassifier with SMOTE Oversampling\n",
       "====================================================\n",
       classification_report(y_test, y_predict, labels=[0,1]))
 
-print("Writing predictions to file: challenges/ML_Fraud_Detection/output_predictions.csv\n")
-pd.DataFrame(y_predict).to_csv('challenges/ML_Fraud_Detection/output_predictions.csv', index=False, header=False)
+print("Writing predictions to file: challenges/ML_Fraud_Detection/data/fraud_predictions.csv\n")
+pd.DataFrame(y_predict).to_csv('challenges/ML_Fraud_Detection/data/fraud_predictions.csv', index=False, header=False)
