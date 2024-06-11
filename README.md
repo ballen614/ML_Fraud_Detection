@@ -36,7 +36,11 @@ _Another learning of ours includes understanding what data from our dataset was 
 
 ***CONCLUSION:***
 
-_In conclusion to our project, we can start by taking away the importance of balancing our data, or using "balanced_accuracy_score" if the data is imbalanced but the values being tested are relatively close to each other. XXXXX_
+_In conclusion to our project, we can start by taking away the importance of balancing our data, or using "balanced_accuracy_score" if the data is imbalanced but the values being tested are relatively close to each other._
+
+_Another conclusion we came to was in regard to what is considered "noise" to the model and what is considered key information to the model._
+
+_Finally, we also concluded that since this project is being posed as a real life example, we as an AI startup company would simply request more data from the insurance companies providing the information._
 
 ***MISC NOTES:***
 
