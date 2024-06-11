@@ -3,8 +3,6 @@ import numpy as np
 from imblearn.over_sampling import SMOTE
 from sklearn.ensemble import GradientBoostingClassifier
 from sklearn.metrics import classification_report
-from sklearn.neighbors import KNeighborsClassifier
-
 
 print()
 print("Reading in data... ")
